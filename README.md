@@ -3,9 +3,13 @@
 ### MNIST数据集
 
 > 1、下载下来的数据集被分成三部分：55000行的训练数据集（mnist.train）、5000行验证集(mnist.validation)和10000行的测试数据集（mnist.test）
+
 > 2、每一个mnist数据单元，包括图片和标签两部分：mnist.train.images和mnist.train.labels
+
 > 3、mnist.train.images的shape(60000,24*24),每个元素的值介于0-1之间
+
 > 4、mnist.train.labels的shape(60000,10)，**ont_hot编码**
+
 > 5、DataSet.next_batch(batch_size)是用于获取以batch_size为大小的一个元组，其中包含了一组图片和标签
 
 ```python
